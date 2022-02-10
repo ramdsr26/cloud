@@ -67,7 +67,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$default:       #ffffff !default;
+$default:       #172b4d !default;
 $primary:       #5e72e4 !default;
 $secondary:     #f4f5f7 !default;
 $success:       $green !default;
@@ -660,8 +660,8 @@ $navbar-nav-link-border-radius:     $border-radius !default;
 $navbar-dark-bg:                    transparent !default;
 $navbar-dark-hover-bg:              rgba(255, 255, 255, .1);
 $navbar-dark-active-bg:             rgba(255, 255, 255, .1);
-$navbar-dark-color:                 #1c385b;
-$navbar-dark-hover-color:           #1c385b;
+$navbar-dark-color:                 rgba($white, .95);
+$navbar-dark-hover-color:           rgba($white, .65);
 $navbar-dark-active-color:          rgba($white, .65);
 $navbar-dark-disabled-color:        rgba($white, .25);
 $navbar-dark-toggler-border-color:  transparent !default;
@@ -885,5 +885,3 @@ $footer-link-color: $gray-600 !default;
 $footer-link-hover-color: $gray-700 !default;
 $footer-heading-color: $gray-600 !default;
 $footer-heading-font-size: $font-size-sm !default;
-
-
