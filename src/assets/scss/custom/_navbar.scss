@@ -8,7 +8,7 @@
         @include transition($navbar-transition);
 
         .nav-link-inner--text {
-            margin-left: .25rem;
+            margin-left: .25rem;color:#172b4d !important
         }
     }
 }
@@ -21,7 +21,7 @@
     letter-spacing: .05px;
 
     img {
-        height: 60px;
+        height: 30px;
     }
 }
 
@@ -166,7 +166,7 @@
     box-shadow: none;
 
     .navbar-brand {
-        color: rgba(255, 255, 255, 1);
+        color: rgb(12, 24, 131);
     }
 
     .navbar-toggler {
