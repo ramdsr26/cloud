@@ -68,7 +68,7 @@
         }
         &:hover {
             .heading, p {
-                color:#31353e;
+                color: theme-color("default") !important;
             }
         }
     }
